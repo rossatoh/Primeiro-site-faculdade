@@ -1,0 +1,201 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.img {
+	margin: auto;
+	width: 20%;
+	padding: 5px;
+
+}
+.botaonavegacao{
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	font-family:"Courier New", Courier, monospace;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:20px;
+}
+
+li a:hover {
+    background-color: grey;
+	
+}
+
+.container {
+    padding-top: 5px;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1000px;
+}
+@media (min-width: 992px)
+.container {
+    width: 900px;
+}
+@media (min-width: 768px)
+.container {
+    width: 700px;
+}
+.container {
+	justify-content: center!important;
+	display: flex!important;
+}
+
+.roda-pe{
+	background: linear-gradient(to bottom, #ff7271 0%, #fb716e 100%);
+	margin:15px;
+	border-radius:10px;
+	padding-bottom:130px
+
+}
+
+.computer{
+	margin:auto;
+
+}
+
+.text1{
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 120%;
+	padding: 40px 40px 40px 40px;
+}
+
+.text2{
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	position:relative;
+	font-size: 100%;
+	bottom:50px;
+}
+
+.icon1{
+	float: left;
+	position: relative;
+	
+}
+
+.text3{
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	position:relative;
+	
+}
+
+.icon2{
+	float: left;
+	position: relative;
+}
+
+.divbottom2{
+	vertical-align:middle; 
+	text-align:center;
+}
+
+.text4{
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	white-space: nowrap;
+	font-size: 100%;
+	
+}
+
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+textarea{
+    width: 300px;
+    height: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#duvidas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p:hover{
+    color: white;
+}
+
+input{
+    border-radius: 17%;
+}
+
+
+.faq{
+	text-align: center;
+	
+	
+}
+
+#hr1{
+	border-color: #ff7474
+}
+
+.titulo-da-div{
+	color: white;
+	text-align: center;
+	font-family: trebuchet MS ;
+}
+
+.titulo-da-div:hover{
+	color: black;
+}
+
+
+.ans-quest{
+	text-align:center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+}
+
+.sugest{
+	text-align: center;
+	color: white
+}
+
+.sugest:hover{
+	color: black;
+}
+
+#msg{ 
+	width: 450px; height: 70px; resize: none;
+}
+
+.boxsend{
+	text-align: center;
+}
+input{
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
